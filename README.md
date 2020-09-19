@@ -1,5 +1,5 @@
 # 3D-multiview
-Utility scripts to generate 3D multi-representation datasets. These scripts convert mesh data (`.off` files) in `ModelNet10`, `ModelNet40` into multiview images or voxels. To convert mesh into point clouds, we can simply use functions inside `pytorch_geometry`.
+Utility scripts to generate 3D multi-representation datasets. These scripts convert mesh data (`.off` files) in `ModelNet10`, `ModelNet40` into multiview images or voxels. To convert mesh into point clouds, we can simply use functions in packages such as `pytorch_geometry` or `trimesh`.
 
 ## Download Datasets
 Simple run
