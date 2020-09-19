@@ -11,7 +11,7 @@ Simple run
 in each scripts folder. The dataset will be downloaded to that folder.
 
 ## Mesh to Voxels
-To convert mesh to voxels, I used [`mesh-voxelixation`](https://github.com/davidstutz/mesh-voxelization). For building `mesh-voxelization`, checkout the original repo. After building, move the binary in `mesh-voxelization/bin/voxelize` to `/usr/bin`.
+To convert mesh to voxels, I used [`mesh-voxelization`](https://github.com/davidstutz/mesh-voxelization). For building `mesh-voxelization`, checkout the original repo. After building, move the binary in `mesh-voxelization/bin/voxelize` to `/usr/bin`.
    
 To convert dataset from mesh representation to voxels, in each scripts folder run
 
