@@ -14,7 +14,7 @@ do
         for t in "train" "test"
         do
             mkdir "${scaled_dir}/${class}/${t}"
-            python3 scale_off.py "${root_dir}/${class}/${t}/" "${scaled_dir}/${class}/${t}/" --padding 0
+            python3 ../scale_off.py "${root_dir}/${class}/${t}/" "${scaled_dir}/${class}/${t}/" --padding 0
         done
     fi
 done
