@@ -13,7 +13,7 @@ in each scripts folder. The dataset will be downloaded to that folder.
 ## Mesh to Voxels
 
 <p align="center" width=400>
-    <img src="./images/bed.png">
+    <img src="./images/bed_voxel.png">
 </p>
 
 To convert mesh to voxels, I used [`mesh-voxelization`](https://github.com/davidstutz/mesh-voxelization). For building `mesh-voxelization`, checkout the original repo. After building, move the binary in `mesh-voxelization/bin/voxelize` to `/usr/bin`.
@@ -25,3 +25,11 @@ scale.sh
 voxelize.sh
 ```
 A scaled mesh dataset `[dataset name]_scaled` and a voxel dataset `[dataset_name]_voxelized` will be created in the scripts folder.
+
+## Mesh to Point Clouds
+
+<p align="center" width=400>
+    <img src="./images/bed_pc.png">
+</p>
+
+We can use `trimesh.sample.sample_surface` to generate point cloud data from surface meshes. This can be done in the data pipeline during execution.

@@ -1,5 +1,6 @@
 import numpy as np
 import trimesh
+from argparse import ArgumentParser
 
 
 if __name__ == '__main__':
@@ -7,7 +8,7 @@ if __name__ == '__main__':
     trimesh.util.attach_to_log()
 
     # load a mesh
-    with open("./ModelNet10_scaled/chair/train/0.off", 'r') as file:
+    with open(, 'r') as file:
         mesh = trimesh.load(file, file_type='off')
 
     # get a scene object containing the mesh, this is equivalent to:
